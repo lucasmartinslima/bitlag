@@ -7,10 +7,6 @@ html, body{
     font-weight: 600;
 }
 
-body{
-    background: url("./fundo.png") no-repeat center center fixed;
-}
-
 
 #logo{
     text-align: center;
@@ -19,6 +15,11 @@ body{
 #cardapio_img{
     width: 70%;
     margin-top: 30px;
+}
+
+#cardapio_img_sm{
+    width: 30%;
+    float: right;
 }
 
 
