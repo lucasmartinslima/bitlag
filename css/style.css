@@ -2,7 +2,6 @@
 
 html, body{
     margin: 0;
-    padding: 0;
     font-family: 'Heebo', sans-serif;
     font-weight: 600;
 }
@@ -46,6 +45,29 @@ html, body{
     text-align: right;
 
 }
+
+
+.tituloCategoria{
+    margin: 40px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+}
+table{
+    color: white;
+    width: 100%;
+    font-size: 25px;
+    margin-right: 120px;
+    font-weight: 300;
+}
+table tr .nome_item{
+    border-bottom: dotted 2px white;
+}
+table tr .preco_item{
+    text-align: initial;
+}
+
 footer{
     position: fixed;
     left: 0;

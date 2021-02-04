@@ -12,9 +12,10 @@
         body{
             background: url("./css/fundo.png") no-repeat center center fixed;
             -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+            -moz-background-size: cover;
+             -o-background-size: cover;
+           background-size: cover;
+
         }
         
     </style>
@@ -22,17 +23,28 @@
    
     
 <div class="container">
-    <div id="logo">
-    <img src="./src/cardapio.png" id="cardapio_img_sm">
+    <div class="row">
+        <div id="logo">
+            <img src="./src/cardapio.png" id="cardapio_img_sm">
+            </div>
     </div>
+    <h1 class="tituloCategoria">Bebidas</h1>
 </div>    
 
-
-
-<div class="cardapio">
-       <img  class="botao" src="./src/bebidas.png">
-       <img  class="botao" src="./src/porcoes.png">
+<div class="container" style="margin-left: 40px;">
+    <table>
+        <tr>
+          <td  class="nome_item" >Guaraná</td>
+          <td>R$ 3.50</td>
+        </tr>
+        <tr>
+          <td class="nome_item" >Aguá</td>
+          <td class="preco_item">R$ 4.00</td>
+        </tr>
+      </table>
 </div>
+
+
 
 <footer>
     <img src="./src/logo_bitlag.png">
