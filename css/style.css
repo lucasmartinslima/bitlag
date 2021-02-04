@@ -8,7 +8,7 @@ html, body{
 }
 
 body{
-    background: url("fundo.png") no-repeat center center fixed;
+    background: url("./src/fundo.png") no-repeat center center fixed;
 }
 
 
