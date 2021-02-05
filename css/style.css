@@ -58,7 +58,6 @@ html, body{
 .table{
     width: 100%;
     text-align: center;
-    scroll-direction: horizontal;
 }
 .cont{
     color: #292929;
