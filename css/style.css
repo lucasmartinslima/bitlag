@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@500&display=swap');
 
 html, body{
     margin: 0;
@@ -17,8 +18,9 @@ html, body{
 }
 
 #cardapio_img_sm{
-    width: 30%;
+    width: 120px;
     float: right;
+
 }
 
 
@@ -52,20 +54,35 @@ html, body{
     font-size: 30px;
     font-weight: 400;
 }
-table{
-    color: white;
-    width: auto;
+
+.table{
+    width: 100%;
+    text-align: center;
+    scroll-direction: horizontal;
+}
+.cont{
+    color: #292929;
+    margin: 38px;
     font-size: 25px;
-    width: 90%;
-    font-weight: 300;
+    font-weight: 500;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: 'Ruda', sans-serif;
 }
-table tr .nome_item{
-    border-bottom: dotted 2px white;
+
+.cont tr .nome_item{
+    border-bottom: dotted 2px #292929;
 }
-table tr .preco_item{
+.cont tr .preco_item{
     text-align: initial;
 }
 
+.img_produto{
+    width: 130px;
+    border-radius: 30px;
+}
 footer{
     position: fixed;
     left: 0;
@@ -74,7 +91,10 @@ footer{
     color: white;
     text-align: center;
     padding: 20px;
+    z-index: -1;
 }
+
+
 footer img{
     width: 100px;
 }
